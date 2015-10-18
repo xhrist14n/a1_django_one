@@ -1,0 +1,101 @@
+2015-10-18T23:13:35.893405+00:00 app[web.1]:     __import__(name)
+2015-10-18T23:13:35.893404+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-10-18T23:13:35.893406+00:00 app[web.1]: ImportError: No module named security
+2015-10-18T23:13:36.097191+00:00 app[web.1]: [2015-10-18 23:13:36 +0000] [9] [ERROR] Error handling request
+2015-10-18T23:13:36.097194+00:00 app[web.1]: Traceback (most recent call last):
+2015-10-18T23:13:36.097195+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 93, in handle
+2015-10-18T23:13:36.097196+00:00 app[web.1]:     self.handle_request(listener, req, client, addr)
+2015-10-18T23:13:36.097197+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle_request
+2015-10-18T23:13:36.097198+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2015-10-18T23:13:36.097198+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 168, in __call__
+2015-10-18T23:13:36.097199+00:00 app[web.1]:     self.load_middleware()
+2015-10-18T23:13:36.097201+00:00 app[web.1]:     mw_class = import_string(middleware_path)
+2015-10-18T23:13:36.097200+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 44, in load_middleware
+2015-10-18T23:13:36.097202+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/module_loading.py", line 26, in import_string
+2015-10-18T23:13:36.097203+00:00 app[web.1]:     module = import_module(module_path)
+2015-10-18T23:13:36.097204+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-10-18T23:13:36.097204+00:00 app[web.1]:     __import__(name)
+2015-10-18T23:13:36.097205+00:00 app[web.1]: ImportError: No module named security
+2015-10-18T23:13:36.101080+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=41c0bc05-7de6-4a01-98a1-7b4ae83282a6 fwd="190.42.16.32" dyno=web.1 connect=1ms service=2ms status=500 bytes=244
+2015-10-18T23:13:36.208963+00:00 heroku[router]: at=info method=GET path="/" host=djangoone.herokuapp.com request_id=1bba9e88-290f-4237-8f4e-fed5615d0f70 fwd="190.42.16.32" dyno=web.1 connect=1ms service=3ms status=500 bytes=244
+2015-10-18T23:13:36.205748+00:00 app[web.1]: [2015-10-18 23:13:36 +0000] [9] [ERROR] Error handling request
+2015-10-18T23:13:36.205752+00:00 app[web.1]: Traceback (most recent call last):
+2015-10-18T23:13:36.205753+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 93, in handle
+2015-10-18T23:13:36.205754+00:00 app[web.1]:     self.handle_request(listener, req, client, addr)
+2015-10-18T23:13:36.205755+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle_request
+2015-10-18T23:13:36.205755+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2015-10-18T23:13:36.205756+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 168, in __call__
+2015-10-18T23:13:36.205757+00:00 app[web.1]:     self.load_middleware()
+2015-10-18T23:13:36.205758+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 44, in load_middleware
+2015-10-18T23:13:36.205759+00:00 app[web.1]:     mw_class = import_string(middleware_path)
+2015-10-18T23:13:36.205760+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/module_loading.py", line 26, in import_string
+2015-10-18T23:13:36.205761+00:00 app[web.1]:     module = import_module(module_path)
+2015-10-18T23:13:36.205762+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-10-18T23:13:36.205763+00:00 app[web.1]:     __import__(name)
+2015-10-18T23:13:36.205764+00:00 app[web.1]: ImportError: No module named security
+2015-10-18T23:13:36.403738+00:00 app[web.1]: [2015-10-18 23:13:36 +0000] [10] [ERROR] Error handling request
+2015-10-18T23:13:36.403748+00:00 app[web.1]:     self.handle_request(listener, req, client, addr)
+2015-10-18T23:13:36.403747+00:00 app[web.1]: Traceback (most recent call last):
+2015-10-18T23:13:36.403748+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 93, in handle
+2015-10-18T23:13:36.403749+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2015-10-18T23:13:36.403749+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 134, in handle_request
+2015-10-18T23:13:36.403750+00:00 app[web.1]:     self.load_middleware()
+2015-10-18T23:13:36.403750+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 168, in __call__
+2015-10-18T23:13:36.403762+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 44, in load_middleware
+2015-10-18T23:13:36.403763+00:00 app[web.1]:     mw_class = import_string(middleware_path)
+2015-10-18T23:13:36.403763+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/module_loading.py", line 26, in import_string
+2015-10-18T23:13:36.403764+00:00 app[web.1]:     module = import_module(module_path)
+2015-10-18T23:13:36.403764+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-10-18T23:13:36.403765+00:00 app[web.1]:     __import__(name)
+2015-10-18T23:13:36.403765+00:00 app[web.1]: ImportError: No module named security
+2015-10-18T23:13:36.406843+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=46e49868-17ca-43f6-9f5a-9dcedd73bce9 fwd="190.42.16.32" dyno=web.1 connect=1ms service=2ms status=500 bytes=244
+2015-10-18T23:14:05.219808+00:00 heroku[api]: Rollback to v3 by xhrist14n@gmail.com
+2015-10-18T23:14:05.219808+00:00 heroku[api]: Release v5 created by xhrist14n@gmail.com
+2015-10-18T23:14:06.871136+00:00 heroku[web.1]: State changed from up to down
+2015-10-18T23:14:12.015710+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-10-18T23:14:13.466146+00:00 app[web.1]: [2015-10-18 23:14:13 +0000] [10] [INFO] Worker exiting (pid: 10)
+2015-10-18T23:14:13.466152+00:00 app[web.1]: [2015-10-18 23:14:13 +0000] [3] [INFO] Handling signal: term
+2015-10-18T23:14:13.479086+00:00 app[web.1]: [2015-10-18 23:14:13 +0000] [9] [INFO] Worker exiting (pid: 9)
+2015-10-18T23:14:13.513758+00:00 app[web.1]: [2015-10-18 23:14:13 +0000] [3] [INFO] Shutting down: Master
+2015-10-18T23:14:14.113146+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-10-18T23:14:14.448807+00:00 heroku[web.1]: Process exited with status 0
+2015-10-18T23:14:20.487877+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=4dab0e24-0a57-4c7d-a2ef-c351d92fd3fd fwd="190.42.16.32" dyno= connect= service= status=502 bytes=
+2015-10-18T23:14:20.285393+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=djangoone.herokuapp.com request_id=76b8c060-5a9d-4977-a8e5-7062a5f8992e fwd="190.42.16.32" dyno= connect= service= status=502 bytes=
+2015-10-18T23:14:21.641803+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=djangoone.herokuapp.com request_id=14b61ca4-1bff-4244-9200-2540da7476a3 fwd="190.42.16.32" dyno= connect= service= status=502 bytes=
+2015-10-18T23:14:21.908062+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=djangoone.herokuapp.com request_id=5c308190-c098-4de3-b49f-fc83b820149f fwd="190.42.16.32" dyno= connect= service= status=502 bytes=
+2015-10-18T23:14:22.147596+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=68f32f83-057c-4637-a0d6-aa59b7e07521 fwd="190.42.16.32" dyno= connect= service= status=502 bytes=
+2015-10-18T23:14:22.562507+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=djangoone.herokuapp.com request_id=8f43d0e4-e04c-44e0-94c4-09b102f13dad fwd="190.42.16.32" dyno= connect= service= status=502 bytes=
+2015-10-18T23:14:22.587840+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=4bb5ed1b-d4a8-4d6c-aa33-70dee8022801 fwd="190.42.16.32" dyno= connect= service= status=502 bytes=
+2015-10-18T23:14:23.041359+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=2161b0df-05aa-4051-b948-589ebdeb3dcb fwd="190.42.16.32" dyno= connect= service= status=502 bytes=
+2015-10-18T23:16:22.531276+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-18T23:16:22.531282+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-18T23:16:22.461946+00:00 heroku[api]: Deploy 93bedee by xhrist14n@gmail.com
+2015-10-18T23:16:22.461946+00:00 heroku[api]: Release v6 created by xhrist14n@gmail.com
+2015-10-18T23:17:03.388400+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=5baed9cd-d92b-4393-8d94-1d3212f67b84 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:17:04.329366+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=d68766ba-dbbe-42f1-8c50-c068f0d1103a fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:18:25.391758+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=0bd50686-ff0a-48b9-9923-17872e06b176 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:18:25.719598+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=f1e45a9f-956d-4a1e-a87b-c4cf9760887c fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:19:59.587495+00:00 heroku[api]: Starting process with command `bash` by xhrist14n@gmail.com
+2015-10-18T23:20:03.048571+00:00 heroku[run.1208]: Starting process with command `bash`
+2015-10-18T23:20:03.011652+00:00 heroku[run.1208]: Awaiting client
+2015-10-18T23:20:03.318534+00:00 heroku[run.1208]: State changed from starting to up
+2015-10-18T23:21:16.399630+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-18T23:21:16.399640+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-18T23:21:16.309785+00:00 heroku[api]: Deploy 93bedee by xhrist14n@gmail.com
+2015-10-18T23:21:16.309785+00:00 heroku[api]: Release v7 created by xhrist14n@gmail.com
+2015-10-18T23:21:19.343017+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=c7228532-4a72-4f25-9677-bb493dfd57dc fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:21:19.694497+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=cd3b553a-6c84-452e-87c7-c3c53dfa6619 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:23:00.139650+00:00 heroku[run.1208]: State changed from up to complete
+2015-10-18T23:23:00.122442+00:00 heroku[run.1208]: Process exited with status 0
+2015-10-18T23:23:20.553329+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=f5db24f6-540f-4936-9253-cb79d2e9e19a fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:23:20.914210+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=cc3ecfde-b9b4-4fd7-b256-fc23bc4f6b11 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:23:47.438422+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-18T23:23:47.438431+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-18T23:23:47.372819+00:00 heroku[api]: Deploy aa7bab4 by xhrist14n@gmail.com
+2015-10-18T23:23:47.372819+00:00 heroku[api]: Release v8 created by xhrist14n@gmail.com
+2015-10-18T23:26:37.912921+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-18T23:26:37.912930+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-18T23:26:37.855486+00:00 heroku[api]: Deploy aa7bab4 by xhrist14n@gmail.com
+2015-10-18T23:26:37.855486+00:00 heroku[api]: Release v9 created by xhrist14n@gmail.com
+2015-10-18T23:26:48.112866+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=d73fb9f4-87f3-4da5-a967-826b8da4509f fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:26:48.444807+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=fde537de-dcf9-45bb-b848-16a9f9c87cc1 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
