@@ -4,17 +4,15 @@ WSGI config for djangoone project.
 It exposes the WSGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
-https://docs.djangoproject.com/en/1.8/howto/deployment/wsgi/
+https://docs.djangoproject.com/en/1.7/howto/deployment/wsgi/
 """
 
+
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangorest.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangoone.settings")
 
 from django.core.wsgi import get_wsgi_application
-##heroku import
-from dj_static import Cling
+from whitenoise.django import DjangoWhiteNoise
 
-##local conf
-#application = get_wsgi_application()
-##heroku conf
-application = Cling(get_wsgi_application())
+application = get_wsgi_application()
+application = DjangoWhiteNoise(application)
