@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'djangoone.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'heroku_94fcaa0dd7fb0bb',
+        'USER': 'b254eb15de2e5b',
+        'PASSWORD': 'f8015fb7',
+        'HOST': 'us-cdbr-iron-east-03.cleardb.net',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
     }
 }
 
@@ -92,10 +96,10 @@ USE_TZ = True
 
 
 # Parse database configuration from $DATABASE_URL
-DATABASES['default'] = dj_database_url.config()
+##DATABASES['default'] = dj_database_url.config()
 
 # Enable Connection Pooling (if desired)
-DATABASES['default']['ENGINE'] = 'django_postgrespool'
+##DATABASES['default']['ENGINE'] = 'django_postgrespool'
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
