@@ -301,3 +301,104 @@
 2015-10-19T03:00:26.359844+00:00 heroku[slug-compiler]: Slug compilation finished
 2015-10-19T03:00:50.033681+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=035c195b-490b-4f90-bc7d-2d4c129f3825 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
 2015-10-19T03:00:50.361646+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=d77c2262-6d4d-49ae-9c52-4d0431008951 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:19:59.587495+00:00 heroku[api]: Starting process with command `bash` by xhrist14n@gmail.com
+2015-10-18T23:20:03.048571+00:00 heroku[run.1208]: Starting process with command `bash`
+2015-10-18T23:20:03.011652+00:00 heroku[run.1208]: Awaiting client
+2015-10-18T23:20:03.318534+00:00 heroku[run.1208]: State changed from starting to up
+2015-10-18T23:21:16.399630+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-18T23:21:16.399640+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-18T23:21:16.309785+00:00 heroku[api]: Deploy 93bedee by xhrist14n@gmail.com
+2015-10-18T23:21:16.309785+00:00 heroku[api]: Release v7 created by xhrist14n@gmail.com
+2015-10-18T23:21:19.343017+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=c7228532-4a72-4f25-9677-bb493dfd57dc fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:21:19.694497+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=cd3b553a-6c84-452e-87c7-c3c53dfa6619 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:23:00.139650+00:00 heroku[run.1208]: State changed from up to complete
+2015-10-18T23:23:00.122442+00:00 heroku[run.1208]: Process exited with status 0
+2015-10-18T23:23:20.553329+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=f5db24f6-540f-4936-9253-cb79d2e9e19a fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:23:20.914210+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=cc3ecfde-b9b4-4fd7-b256-fc23bc4f6b11 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:23:47.438422+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-18T23:23:47.438431+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-18T23:23:47.372819+00:00 heroku[api]: Deploy aa7bab4 by xhrist14n@gmail.com
+2015-10-18T23:23:47.372819+00:00 heroku[api]: Release v8 created by xhrist14n@gmail.com
+2015-10-18T23:26:37.912921+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-18T23:26:37.912930+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-18T23:26:37.855486+00:00 heroku[api]: Deploy aa7bab4 by xhrist14n@gmail.com
+2015-10-18T23:26:37.855486+00:00 heroku[api]: Release v9 created by xhrist14n@gmail.com
+2015-10-18T23:26:48.112866+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=d73fb9f4-87f3-4da5-a967-826b8da4509f fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:26:48.444807+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=fde537de-dcf9-45bb-b848-16a9f9c87cc1 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:31:22.653038+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-18T23:31:22.653048+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-18T23:31:22.574837+00:00 heroku[api]: Deploy 0d909cf by xhrist14n@gmail.com
+2015-10-18T23:31:22.574837+00:00 heroku[api]: Release v10 created by xhrist14n@gmail.com
+2015-10-18T23:31:26.789511+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=5e831062-e0aa-4ad6-8594-295ff6907425 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:31:27.115626+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=58d0a313-b379-4990-85a3-ad07333826d2 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:39:06.354345+00:00 heroku[api]: Starting process with command `bash` by xhrist14n@gmail.com
+2015-10-18T23:39:10.130985+00:00 heroku[run.6072]: Awaiting client
+2015-10-18T23:39:10.153515+00:00 heroku[run.6072]: Starting process with command `bash`
+2015-10-18T23:39:10.516395+00:00 heroku[run.6072]: State changed from starting to up
+2015-10-18T23:39:26.871150+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-18T23:39:26.871159+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-18T23:39:26.817333+00:00 heroku[api]: Deploy 60200f2 by xhrist14n@gmail.com
+2015-10-18T23:39:26.817333+00:00 heroku[api]: Release v11 created by xhrist14n@gmail.com
+2015-10-18T23:41:12.551236+00:00 heroku[api]: Deploy 717788a by xhrist14n@gmail.com
+2015-10-18T23:41:12.551236+00:00 heroku[api]: Release v12 created by xhrist14n@gmail.com
+2015-10-18T23:41:12.619674+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-18T23:41:12.619684+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-18T23:41:16.597707+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=06d57852-c264-46ff-a388-1189b5a2f6f2 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:41:16.949166+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=ef754986-7c14-4d6c-b38e-9d2b7fc838a5 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:44:19.976507+00:00 heroku[run.6072]: State changed from up to complete
+2015-10-18T23:44:19.962615+00:00 heroku[run.6072]: Process exited with status 1
+2015-10-18T23:45:38.921113+00:00 heroku[api]: Attach CLEARDB_DATABASE resource by xhrist14n@gmail.com
+2015-10-18T23:45:38.921113+00:00 heroku[api]: Release v13 created by xhrist14n@gmail.com
+2015-10-18T23:49:43.988462+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-18T23:49:43.988472+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-18T23:49:43.906282+00:00 heroku[api]: Deploy a1d3dbf by xhrist14n@gmail.com
+2015-10-18T23:49:43.906282+00:00 heroku[api]: Release v14 created by xhrist14n@gmail.com
+2015-10-18T23:49:50.307655+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=23079b66-2049-4c22-a661-69db74cf5fbb fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-18T23:49:50.641076+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=a7bd0eeb-d005-47b5-a58d-af17ca93716f fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T01:08:35.537784+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=7ed272ae-4a00-4265-aa23-4cc2e33d099d fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T01:08:36.279372+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=47306ea2-5211-41bb-893c-13180579aa25 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T01:08:36.434474+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=7765ccaf-7e3f-4fa4-a4ba-54f75441a9a3 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T02:54:26.824297+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-19T02:54:26.824300+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-19T02:54:26.750808+00:00 heroku[api]: Deploy 2ad7ad1 by xhrist14n@gmail.com
+2015-10-19T02:54:26.750849+00:00 heroku[api]: Release v15 created by xhrist14n@gmail.com
+2015-10-19T02:54:30.954219+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=088a2aae-b59a-4fe7-8f86-b7caea61b2b4 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T02:54:31.283520+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=5a6d0f98-12a4-4b5d-93d9-e1be61950c15 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T02:57:15.766736+00:00 heroku[api]: Starting process with command `bash` by xhrist14n@gmail.com
+2015-10-19T02:57:19.336285+00:00 heroku[run.5146]: Awaiting client
+2015-10-19T02:57:19.791340+00:00 heroku[run.5146]: State changed from starting to up
+2015-10-19T02:57:22.012074+00:00 heroku[run.5146]: Starting process with command `bash`
+2015-10-19T02:58:11.118407+00:00 heroku[api]: Deploy 8db3dea by xhrist14n@gmail.com
+2015-10-19T02:58:11.118407+00:00 heroku[api]: Release v16 created by xhrist14n@gmail.com
+2015-10-19T02:58:11.195177+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-19T02:58:11.195189+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-19T02:58:20.648810+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=df51227f-1edf-4472-bd98-bbd3967adf9c fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T02:58:21.000446+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=6ef6728b-b0bb-4a64-a1fe-faf3c6dfa6d8 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T02:59:31.793750+00:00 heroku[run.5146]: Process exited with status 0
+2015-10-19T02:59:31.803850+00:00 heroku[run.5146]: State changed from up to complete
+2015-10-19T03:00:26.282279+00:00 heroku[api]: Deploy 8db3dea by xhrist14n@gmail.com
+2015-10-19T03:00:26.282279+00:00 heroku[api]: Release v17 created by xhrist14n@gmail.com
+2015-10-19T03:00:26.359834+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-19T03:00:26.359844+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-19T03:00:50.033681+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=035c195b-490b-4f90-bc7d-2d4c129f3825 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:00:50.361646+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=d77c2262-6d4d-49ae-9c52-4d0431008951 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:35.952079+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=c3caa3d8-ee51-4261-9259-332357454194 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:36.082815+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=834b4c76-2147-454b-b73a-21428fc9434d fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:36.418715+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=60063912-e4f9-4073-ae28-33c7fdd49613 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:37.917187+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=88e091d0-69cc-4712-827f-c0ba0eb3f0d8 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:39.334456+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=eccce2df-3bd8-4beb-b287-276202edd546 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:39.697867+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=dd35f2ed-c84a-416f-9061-d38228635a8a fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:40.109608+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=59e9642c-6382-462b-b76e-cdad4d339f10 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:40.458073+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=1cd625ad-ef34-4e8a-b6a3-4987741a2600 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:40.760437+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=236e97dc-6e26-438c-b820-119238fa856a fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:41.099842+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=6476dee6-c834-445e-b03d-e6554abf68eb fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:42.914412+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=c8e6fe9e-1358-4ba1-addc-beabb740ec4c fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:01:43.405864+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=3f978399-f7d1-46f1-bffa-730641021d9f fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:03:10.539738+00:00 heroku[slug-compiler]: Slug compilation started
+2015-10-19T03:03:10.539749+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-10-19T03:03:10.443856+00:00 heroku[api]: Deploy 2aea000 by xhrist14n@gmail.com
+2015-10-19T03:03:10.443856+00:00 heroku[api]: Release v18 created by xhrist14n@gmail.com
+2015-10-19T03:04:03.633644+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=djangoone.herokuapp.com request_id=493e2507-3b54-40ab-871b-4e9dc4f58a3b fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:04:03.293713+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=112ac0f8-0aad-4ec6-a8a4-341e24bcbf64 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:04:37.376306+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=19082e30-a7b3-4e85-9b39-91718e99c23f fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T03:04:42.300636+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=djangoone.herokuapp.com request_id=7c946577-b541-4569-a4b7-4aa3c7835f3f fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
