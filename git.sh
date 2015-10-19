@@ -1,3 +1,4 @@
+python manage.py collectstatic
 rm ./djangostarter/*.pyc
 rm ./home/*.pyc
 clear
