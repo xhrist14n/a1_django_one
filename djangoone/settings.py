@@ -10,11 +10,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 """
 
 import os
-
-try:
-    import dj_database_url
-except:
-    pass
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -97,11 +93,8 @@ USE_TZ = True
 
 
 # Parse database configuration from $DATABASE_URL
-try:
-    DATABASES['default'] =  dj_database_url.config()
-    DATABASES['default']['ENGINE'] = 'django_postgrespool'
-except:
-    pass
+DATABASES['default'] =  dj_database_url.config()
+DATABASES['default']['ENGINE'] = 'django_postgrespool'
 
 # Enable Connection Pooling (if desired)
 
