@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 import os
 
 try:
-import dj_database_url
+    import dj_database_url
 except:
     pass
 
