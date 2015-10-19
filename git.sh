@@ -1,5 +1,5 @@
 python manage.py collectstatic
-rm ./djangostarter/*.pyc
+rm ./djangoone/*.pyc
 rm ./home/*.pyc
 clear
 git add . -f
