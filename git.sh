@@ -1,4 +1,4 @@
-python manage.py collectstatic
+python manage.py collectstatic --noinput
 rm ./djangoone/*.pyc
 rm ./home/*.pyc
 clear
