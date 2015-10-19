@@ -1,8 +1,0 @@
-=== djangoone Config Vars
-DATABASE_URL: postgres://uhpqcijouthhno:eOfMdGC6Real4x4qcTgGKVYMbh@ec2-184-73-165-195.compute-1.amazonaws.com:5432/de9lt37b0t1fef
-=== djangoone Config Vars
-CLEARDB_DATABASE_URL: mysql://b254eb15de2e5b:f8015fb7@us-cdbr-iron-east-03.cleardb.net/heroku_94fcaa0dd7fb0bb?reconnect=true
-DATABASE_URL:         postgres://uhpqcijouthhno:eOfMdGC6Real4x4qcTgGKVYMbh@ec2-184-73-165-195.compute-1.amazonaws.com:5432/de9lt37b0t1fef
-=== djangoone Config Vars
-CLEARDB_DATABASE_URL: mysql://b254eb15de2e5b:f8015fb7@us-cdbr-iron-east-03.cleardb.net/heroku_94fcaa0dd7fb0bb?reconnect=true
-DATABASE_URL:         postgres://uhpqcijouthhno:eOfMdGC6Real4x4qcTgGKVYMbh@ec2-184-73-165-195.compute-1.amazonaws.com:5432/de9lt37b0t1fef

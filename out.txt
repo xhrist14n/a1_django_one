@@ -1,0 +1,104 @@
+=== djangostarter Config Vars
+DATABASE_URL: postgres://uxyugmwhnuwrjq:zR0V_Ds1_jNlp9FrFrQVfsDw1n@ec2-54-204-25-54.compute-1.amazonaws.com:5432/df3uinq43for2k
+2015-10-19T01:59:11.610505+00:00 app[web.1]:     __import__(name)
+2015-10-19T01:59:11.610618+00:00 app[web.1]: [2015-10-19 01:59:11 +0000] [9] [INFO] Worker exiting (pid: 9)
+2015-10-19T01:59:11.610509+00:00 app[web.1]: ImportError: No module named gettingstarted.settings
+2015-10-19T01:59:11.644416+00:00 app[web.1]: Traceback (most recent call last):
+2015-10-19T01:59:11.644411+00:00 app[web.1]: [2015-10-19 01:59:11 +0000] [10] [ERROR] Exception in worker process:
+2015-10-19T01:59:11.644419+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+2015-10-19T01:59:11.644418+00:00 app[web.1]:     worker.init_process()
+2015-10-19T01:59:11.644417+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+2015-10-19T01:59:11.644420+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2015-10-19T01:59:11.644421+00:00 app[web.1]:     self.callable = self.load()
+2015-10-19T01:59:11.644422+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2015-10-19T01:59:11.644421+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2015-10-19T01:59:11.644423+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2015-10-19T01:59:11.644423+00:00 app[web.1]:     return self.load_wsgiapp()
+2015-10-19T01:59:11.644425+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+2015-10-19T01:59:11.644424+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2015-10-19T01:59:11.644425+00:00 app[web.1]:     __import__(module)
+2015-10-19T01:59:11.644428+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/whitenoise/django.py", line 14, in <module>
+2015-10-19T01:59:11.644427+00:00 app[web.1]:     from whitenoise.django import DjangoWhiteNoise
+2015-10-19T01:59:11.644429+00:00 app[web.1]:     from django.contrib.staticfiles.storage import staticfiles_storage
+2015-10-19T01:59:11.644426+00:00 app[web.1]:   File "/app/djangostarter/wsgi.py", line 14, in <module>
+2015-10-19T01:59:11.644447+00:00 app[web.1]:     if DEFAULT_CACHE_ALIAS not in settings.CACHES:
+2015-10-19T01:59:11.644430+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/contrib/staticfiles/storage.py", line 12, in <module>
+2015-10-19T01:59:11.644445+00:00 app[web.1]:     from django.core.cache import (
+2015-10-19T01:59:11.644448+00:00 app[web.1]:     self._setup(name)
+2015-10-19T01:59:11.644446+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/cache/__init__.py", line 34, in <module>
+2015-10-19T01:59:11.644450+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 92, in __init__
+2015-10-19T01:59:11.644451+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2015-10-19T01:59:11.644452+00:00 app[web.1]:     __import__(name)
+2015-10-19T01:59:11.644452+00:00 app[web.1]: ImportError: No module named gettingstarted.settings
+2015-10-19T01:59:11.644454+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+2015-10-19T01:59:11.644449+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2015-10-19T01:59:11.644453+00:00 app[web.1]: Traceback (most recent call last):
+2015-10-19T01:59:11.644453+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+2015-10-19T01:59:11.644447+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+2015-10-19T01:59:11.644448+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 44, in _setup
+2015-10-19T01:59:11.644451+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-10-19T01:59:11.644453+00:00 app[web.1]:     worker.init_process()
+2015-10-19T01:59:11.644457+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+2015-10-19T01:59:11.644459+00:00 app[web.1]:     from whitenoise.django import DjangoWhiteNoise
+2015-10-19T01:59:11.644455+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2015-10-19T01:59:11.644459+00:00 app[web.1]:     from django.contrib.staticfiles.storage import staticfiles_storage
+2015-10-19T01:59:11.644456+00:00 app[web.1]:     return self.load_wsgiapp()
+2015-10-19T01:59:11.644460+00:00 app[web.1]:     from django.core.cache import (
+2015-10-19T01:59:11.644457+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2015-10-19T01:59:11.644461+00:00 app[web.1]:     if DEFAULT_CACHE_ALIAS not in settings.CACHES:
+2015-10-19T01:59:11.644458+00:00 app[web.1]:     __import__(module)
+2015-10-19T01:59:11.644459+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/whitenoise/django.py", line 14, in <module>
+2015-10-19T01:59:11.644460+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/contrib/staticfiles/storage.py", line 12, in <module>
+2015-10-19T01:59:11.644454+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2015-10-19T01:59:11.644458+00:00 app[web.1]:   File "/app/djangostarter/wsgi.py", line 14, in <module>
+2015-10-19T01:59:11.644466+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+2015-10-19T01:59:11.644466+00:00 app[web.1]:     self._setup(name)
+2015-10-19T01:59:11.644455+00:00 app[web.1]:     self.callable = self.load()
+2015-10-19T01:59:11.644456+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2015-10-19T01:59:11.644456+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2015-10-19T01:59:11.644466+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 44, in _setup
+2015-10-19T01:59:11.644467+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/conf/__init__.py", line 92, in __init__
+2015-10-19T01:59:11.644468+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2015-10-19T01:59:11.644473+00:00 app[web.1]: ImportError: No module named gettingstarted.settings
+2015-10-19T01:59:11.644467+00:00 app[web.1]:     self._wrapped = Settings(settings_module)
+2015-10-19T01:59:11.644469+00:00 app[web.1]:     __import__(name)
+2015-10-19T01:59:11.665170+00:00 app[web.1]: Traceback (most recent call last):
+2015-10-19T01:59:11.644461+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/cache/__init__.py", line 34, in <module>
+2015-10-19T01:59:11.644468+00:00 app[web.1]:     mod = importlib.import_module(self.SETTINGS_MODULE)
+2015-10-19T01:59:11.644503+00:00 app[web.1]: [2015-10-19 01:59:11 +0000] [10] [INFO] Worker exiting (pid: 10)
+2015-10-19T01:59:11.665174+00:00 app[web.1]:   File "/app/.heroku/python/bin/gunicorn", line 11, in <module>
+2015-10-19T01:59:11.665234+00:00 app[web.1]:     WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+2015-10-19T01:59:11.665296+00:00 app[web.1]:     super(Application, self).run()
+2015-10-19T01:59:11.665190+00:00 app[web.1]:     sys.exit(run())
+2015-10-19T01:59:11.665231+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+2015-10-19T01:59:11.665250+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/base.py", line 189, in run
+2015-10-19T01:59:11.665318+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 201, in run
+2015-10-19T01:59:11.665317+00:00 app[web.1]:     Arbiter(self).run()
+2015-10-19T01:59:11.665297+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/base.py", line 72, in run
+2015-10-19T01:59:11.665367+00:00 app[web.1]:     self.halt(reason=inst.reason, exit_status=inst.exit_status)
+2015-10-19T01:59:11.665468+00:00 app[web.1]:     time.sleep(0.1)
+2015-10-19T01:59:11.665368+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 297, in halt
+2015-10-19T01:59:11.665414+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 342, in stop
+2015-10-19T01:59:11.665413+00:00 app[web.1]:     self.stop()
+2015-10-19T01:59:11.665471+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 214, in handle_chld
+2015-10-19T01:59:11.665527+00:00 app[web.1]:     self.reap_workers()
+2015-10-19T01:59:11.665528+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 459, in reap_workers
+2015-10-19T01:59:11.665583+00:00 app[web.1]:     raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2015-10-19T01:59:11.665612+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2015-10-19T01:59:12.445963+00:00 heroku[web.1]: State changed from starting to crashed
+2015-10-19T01:59:12.430640+00:00 heroku[web.1]: Process exited with status 1
+2015-10-19T01:59:18.062578+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=djangostarter.herokuapp.com request_id=d26335c2-3056-4b66-acb8-8b295edba664 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T01:59:18.265065+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=djangostarter.herokuapp.com request_id=36d8021b-d3d6-4b0a-8b10-4fdef306b799 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T01:59:21.402440+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=djangostarter.herokuapp.com request_id=87b56099-37df-484a-ba4e-5e0dc8eb9b46 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T01:59:22.059334+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=djangostarter.herokuapp.com request_id=f6744ace-1574-48e2-b9d5-bd9444b59213 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T01:59:23.055288+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=djangostarter.herokuapp.com request_id=c92017fe-460f-4b50-bed8-d14c1404eae1 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T01:59:23.670074+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=djangostarter.herokuapp.com request_id=51139d1b-9a17-4424-bc57-f87c220afacb fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T01:59:41.062233+00:00 heroku[api]: Starting process with command `bash` by xhrist14n@gmail.com
+2015-10-19T01:59:45.138206+00:00 heroku[run.7774]: State changed from starting to up
+2015-10-19T01:59:45.031776+00:00 heroku[run.7774]: Awaiting client
+2015-10-19T01:59:45.060891+00:00 heroku[run.7774]: Starting process with command `bash`
+2015-10-19T02:00:29.823987+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=djangostarter.herokuapp.com request_id=fa167e88-3acc-4d88-948c-a5782ef98eee fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T02:00:30.275557+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=djangostarter.herokuapp.com request_id=5fbfe41f-2d3d-4c70-b7db-f94eab5c2f65 fwd="190.42.16.32" dyno= connect= service= status=503 bytes=
+2015-10-19T02:00:50.712260+00:00 heroku[run.7774]: State changed from up to complete
+2015-10-19T02:00:50.696954+00:00 heroku[run.7774]: Process exited with status 0=== djangostarter Config Vars
+DATABASE_URL: postgres://uxyugmwhnuwrjq:zR0V_Ds1_jNlp9FrFrQVfsDw1n@ec2-54-204-25-54.compute-1.amazonaws.com:5432/df3uinq43for2k
